@@ -1,0 +1,289 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>Dini Food House | Homemade • Delicious • Cozy</title>
+    <link rel="icon" href="assets/dini-food-house-logo.png" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700;800&family=Playfair+Display:wght@600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="top">
+      HOMEMADE • DELICIOUS • COZY — WELCOME TO DINI FOOD HOUSE
+    </div>
+    <header>
+      <nav class="wrap nav">
+        <a class="brand" href="#home"
+          ><span class="brand-mark"><img
+            src="assets/dini-food-house-logo.png"
+            alt="Dini Food House logo"
+          /></span><span class="brand-name">Dini <b>FOOD HOUSE</b></span></a
+        ><button id="hamb" aria-label="Open menu" aria-expanded="false">☰</button>
+        <div class="links" id="links">
+          <a href="#home">Home</a><a href="#about">About</a
+          ><a href="#menu">Menu</a><a href="#gallery">Gallery</a
+          ><a href="#contact">Contact</a
+          ><a class="navbtn" href="#menu">Order Food ↗</a>
+        </div>
+      </nav>
+    </header>
+    <main>
+      <section class="hero" id="home">
+        <div class="wrap hero-grid">
+          <div>
+            <p class="eyebrow hero-reveal hero-reveal-1">✦ FRESH • NATURAL • DELICIOUS</p>
+            <h1 class="hero-reveal hero-reveal-2">A little taste of <em>Sri Lanka.</em></h1>
+            <p class="lead hero-reveal hero-reveal-3">
+              Made with care, served with love. Discover comforting favourites
+              and feel-good flavours at Dini Food House.
+            </p>
+            <a class="btn hero-reveal hero-reveal-4" href="#menu">Explore our menu →</a>
+            <a class="under hero-reveal hero-reveal-4" href="#about">Our story ↗</a>
+            <p class="note hero-reveal hero-reveal-5">
+              ✳ Homemade goodness<br /><small
+                >Simple ingredients. Lovely flavours.</small
+              >
+            </p>
+          </div>
+          <div class="heroimg">
+            <img
+              src="assets/home/images.jpg"
+              alt="Sri Lankan rice and curry"
+            /><span>MADE WITH ♥ CARE</span>
+          </div>
+        </div>
+      </section>
+      <section class="section about" id="about">
+        <div class="wrap two">
+          <div class="about-image"><img
+            src="https://images.unsplash.com/photo-1512058564366-18510be2db19?auto=format&fit=crop&w=900&q=85"
+            alt="Delicious meal"
+          /></div>
+          <div>
+            <p class="eyebrow">A PLACE TO ENJOY GOOD FOOD</p>
+            <h2>Welcome to <em>our table.</em></h2>
+            <p>
+              Dini Food House is all about bringing people together over
+              delicious food. From everyday favourites to special treats, we
+              want every meal to feel comforting, fresh and memorable.
+            </p>
+            <p>Come hungry, leave happy — and make yourself at home.</p>
+            <a class="under" href="#contact">Get in touch ↗</a>
+          </div>
+        </div>
+      </section>
+      <section class="section" id="menu">
+        <div class="wrap">
+          <div class="heading">
+            <div>
+              <p class="eyebrow">SOMETHING DELICIOUS FOR EVERYONE</p>
+              <h2>Explore our <em>menu.</em></h2>
+            </div>
+            <p>
+              Choose what you love and send your order directly to us on
+              WhatsApp.
+            </p>
+          </div>
+          <div id="filters" class="filters"></div>
+          <p class="menu-selection" id="menuSelection" aria-live="polite"></p>
+          <div id="foodGrid" class="foodgrid"></div>
+        </div>
+      </section>
+      <section class="banner">
+        <div class="wrap heading">
+          <div>
+            <p class="eyebrow">A GOOD MEAL IS JUST A MESSAGE AWAY</p>
+            <h2>Craving something <em>delicious?</em></h2>
+          </div>
+          <a class="btn light" href="#menu">Choose your food →</a>
+        </div>
+      </section>
+      <section class="offer-section" id="special-offer">
+        <div class="wrap">
+          <div class="offer-card">
+            <div class="offer-copy">
+              <span class="offer-badge">TODAY'S SPECIAL</span>
+              <p class="eyebrow">SPECIAL OFFER!</p>
+              <h2>Seafood rice <em>feast.</em></h2>
+              <p>
+                Order one Seafood Rice Pack (suitable for 5 people) and receive
+                <strong>ONE FREE WATALAPPAN!</strong>
+              </p>
+              <div class="offer-price">
+                <span>Offer price</span>
+                <b>Rs. 2,500</b>
+              </div>
+              <button class="btn" type="button" id="offerOrder">
+                Order Now ↗
+              </button>
+            </div>
+            <div class="offer-images">
+              <figure class="offer-main-image">
+                <img
+                  src="assets/offer/Fathis-819x1024.jpg"
+                  alt="Seafood rice pack for five people"
+                />
+                <figcaption>Seafood Rice Pack · Serves 5</figcaption>
+              </figure>
+              <figure class="offer-dessert-image">
+                <img
+                  src="assets/offer/download.jpg"
+                  alt="Watalappan dessert included free with the offer"
+                />
+                <figcaption>ONE FREE WATALAPPAN</figcaption>
+              </figure>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="section gallery" id="gallery">
+        <div class="wrap">
+          <div class="heading">
+            <div>
+              <p class="eyebrow">A FEAST FOR THE EYES</p>
+              <h2>Made to be <em>enjoyed.</em></h2>
+            </div>
+            <div><button id="prev">←</button> <button id="next">→</button></div>
+          </div>
+          <div class="gallerywindow">
+            <div class="track" id="track">
+              <figure>
+                <img
+                  src="https://images.unsplash.com/photo-1512058564366-18510be2db19?auto=format&fit=crop&w=850&q=85"
+                  alt="Rice meal"
+                />
+                <figcaption>Everyday favourites</figcaption>
+              </figure>
+              <figure>
+                <img
+                  src="https://images.unsplash.com/photo-1603894584373-5ac82b2ae398?auto=format&fit=crop&w=850&q=85"
+                  alt="Curry"
+                />
+                <figcaption>Rich, comforting flavours</figcaption>
+              </figure>
+              <figure>
+                <img
+                  src="https://images.unsplash.com/photo-1569718212165-3a8278d5f624?auto=format&fit=crop&w=850&q=85"
+                  alt="Noodles"
+                />
+                <figcaption>Made fresh for you</figcaption>
+              </figure>
+              <figure>
+                <img
+                  src="https://images.unsplash.com/photo-1546069901-ba9599a7e63c?auto=format&fit=crop&w=850&q=85"
+                  alt="Fresh food"
+                />
+                <figcaption>Fresh and colourful</figcaption>
+              </figure>
+              <figure>
+                <img
+                  src="https://images.unsplash.com/photo-1568901346375-23c9450c58cd?auto=format&fit=crop&w=850&q=85"
+                  alt="Burger"
+                />
+                <figcaption>Something special</figcaption>
+              </figure>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="section" id="contact">
+        <div class="wrap two contact">
+          <div>
+            <p class="eyebrow">WE'D LOVE TO HEAR FROM YOU</p>
+            <h2>Let's make your day <em>delicious.</em></h2>
+            <p>
+              Questions about our menu or ready to place an order? Reach out and
+              we'll be happy to help.
+            </p>
+            <p>☎ <a id="phone" href="tel:+94775572256"></a></p>
+            <p>⌖ <b id="address"></b></p>
+            <p>✉ <a id="email" href="mailto:dinifoodhouse@gmail.com"></a></p>
+            <p>◉ <a href="https://wa.me/94775572256" target="_blank" rel="noopener noreferrer">Chat with us on WhatsApp</a></p>
+          </div>
+          <div class="form">
+            <p class="eyebrow">GET IN TOUCH</p>
+            <h3>Send us a message.</h3>
+            <form id="contactForm">
+              <label>Your name</label
+              ><input
+                id="customerName"
+                required
+                placeholder="Enter your name"
+              /><label>Your message</label
+              ><textarea
+                id="customerMessage"
+                required
+                rows="4"
+                placeholder="How can we help?"
+              ></textarea
+              ><button class="btn" type="submit">Send via WhatsApp ↗</button>
+            </form>
+            <small class="muted"
+              >Your message opens in WhatsApp for you to send.</small
+            >
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer>
+      <div class="wrap foot">
+        <div class="brand">
+          <span class="brand-mark"><img src="assets/dini-food-house-logo.png" alt="Dini Food House logo" /></span><span class="brand-name"
+            >Dini <b>FOOD HOUSE</b></span
+          >
+        </div>
+        <div>
+          <a href="#home">Home</a> · <a href="#menu">Menu</a> ·
+          <a href="#gallery">Gallery</a> · <a href="#contact">Contact</a>
+        </div>
+      </div>
+      <div class="wrap footer-contact">
+        <h3>Restaurant Name: Dini Food House</h3>
+        <div class="footer-contact-grid">
+          <p>
+            <span class="contact-icon" aria-hidden="true">⌖</span>
+            <span><b>Address</b><span id="footerAddress"></span></span>
+          </p>
+          <p>
+            <span class="contact-icon" aria-hidden="true">✉</span>
+            <span><b>Email</b><a id="footerEmail" href="mailto:dinifoodhouse@gmail.com"></a></span>
+          </p>
+          <p>
+            <span class="contact-icon" aria-hidden="true">☎</span>
+            <span><b>Contact number</b><a id="footerPhone" href="tel:+94775572256"></a></span>
+          </p>
+          <p>
+            <span class="contact-icon" aria-hidden="true">◉</span>
+            <span><b>WhatsApp</b><a href="https://wa.me/94775572256" target="_blank" rel="noopener noreferrer">Message us directly</a></span>
+          </p>
+        </div>
+      </div>
+      <div class="wrap copyright">
+        © <span id="year"></span> Dini Food House. All rights reserved.
+        <span>Homemade • Delicious • Cozy</span>
+      </div>
+    </footer>
+    <a class="floating" id="floating" href="#">◉ Order on WhatsApp</a>
+    <div
+      class="lightbox"
+      id="lightbox"
+      role="dialog"
+      aria-modal="true"
+      aria-label="Image viewer"
+      aria-hidden="true"
+    >
+      <button class="lightbox-close" type="button" aria-label="Close image viewer">×</button>
+      <button class="lightbox-prev" type="button" aria-label="Previous image">‹</button>
+      <img class="lightbox-image" alt="" />
+      <button class="lightbox-next" type="button" aria-label="Next image">›</button>
+      <p class="lightbox-caption" aria-live="polite"></p>
+    </div>
+    <div id="toast" class="toast"></div>
+    <script src="script.js"></script>
+  </body>
+</html>

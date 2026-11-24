@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 480">
+  <rect width="640" height="480" fill="#f3e7d8"/>
+  <circle cx="320" cy="240" r="151" fill="#fffaf4"/>
+  <circle cx="320" cy="240" r="125" fill="#ead7c2"/>
+  <circle cx="320" cy="240" r="106" fill="#f7efe5"/>
+  <path d="M288 194c-27-30 6-37-4-69m46 69c-27-30 6-37-4-69m48 69c-27-30 6-37-4-69" fill="none" stroke="#9a7152" stroke-linecap="round" stroke-width="9"/>
+  <path d="M254 275c27-32 48-32 66 0 18-32 39-32 66 0" fill="none" stroke="#b48b69" stroke-linecap="round" stroke-width="13"/>
+  <text x="320" y="350" fill="#68452f" font-family="Arial, sans-serif" font-size="24" font-weight="700" text-anchor="middle">YOUR FOOD PHOTO</text>
+  <text x="320" y="381" fill="#8a6b52" font-family="Arial, sans-serif" font-size="17" text-anchor="middle">Replace this image anytime</text>
+</svg>
